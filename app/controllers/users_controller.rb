@@ -20,7 +20,6 @@ class UsersController < ApplicationController
     # puts params
     # @user = User.new
     @user = User.find_by_id(params[:id])
-
   end
 
   def update
